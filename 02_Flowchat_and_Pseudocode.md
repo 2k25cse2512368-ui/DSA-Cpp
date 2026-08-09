@@ -9,35 +9,30 @@
 * Diamond        -> Decision
 * Arrow          -> Flow Direction
 
-## Example 1->
-Problem : To calculate Area of a Square
+## Example 1 → Area of a Square
 
-START
-  ↓
-Input Side
-  ↓
-Area = Side * Side
-  ↓
-Display Area
-  ↓
-STOP
+Problem : Calculate the area of a square.
+
+```mermaid
+flowchart TD
+    A([START]) --> B[/Input Side/]
+    B --> C[Area = Side × Side]
+    C --> D[/Display Area/]
+    D --> E([STOP])
+```
 
 ## Example 2->
 Problem : Is Given Number a Even Number or Odd Number
 
-START
-  ↓
-Input num
-  ↓
-num % 2 == 0?
- ↙              ↘
-Yes              No
- ↓                ↓
-Display           Display
-"Even"            "Odd"
-  ↘              ↙
-       ↓
-      STOP
+```mermaid
+flowchart TD
+    A([START]) --> B[/Input num/]
+    B --> C{num % 2 == 0?}
+    C -- Yes --> D[/Display "Even Number"/]
+    C -- No --> E[/Display "Odd Number"/]
+    D --> F([STOP])
+    E --> F
+```
 
 
 ### PSEUDOCODE
@@ -48,26 +43,20 @@ Display           Display
 ## Example 1->
 Problem : To check whether the number is Prime or not
 
-* STEP 1: INPUT num
-* STEP 2: SET i = 2, count = 0
-
-* STEP 3: WHILE i <= num/2
-            IF num % i == 0
-                SET count = 1
-                EXIT LOOP
-            END IF
-
-            SET i = i + 1
-        END WHILE
-
-* STEP 4: IF count == 0
-            DISPLAY "Prime Number"
-        ELSE
-            DISPLAY "Not a Prime Number"
-        END IF
-
-* STEP 5: STOP
-     
-     
+```mermaid
+flowchart TD
+    A([START]) --> B[/Input num/]
+    B --> C{num <= 1?}
+    C -- Yes --> D[/Display "Not Prime"/]
+    C -- No --> E[Set i = 2]
+    E --> F{i <= num/2?}
+    F -- No --> G[/Display "Prime"/]
+    F -- Yes --> H{num % i == 0?}
+    H -- Yes --> D
+    H -- No --> I[i = i + 1]
+    I --> F
+    D --> J([STOP])
+    G --> J
+```
 
 ****************************************************************
