@@ -33,14 +33,20 @@ int main() {
     char b;
     cout << "\nEnter a character: ";
     cin >> b;
-    cout << "The character is: " << b << endl;
+    cout << "\nThe character is: " << b << endl;
 
 
     // =========================
     // TYPE CASTING
     // =========================
 
-    cout << "ASCII value of b: " << (int)b << endl;    //American Standard Code for Information Interchange
+    cout << "ASCII value of " <<b<<" is "<<(int)b << endl;    //American Standard Code for Information Interchange
+     
+    /*  ASCII value of A-Z is  65-90
+        ASCII value of a-z is  97-122
+        
+    */
+   
 
 
     return 0;
