@@ -25,4 +25,20 @@ This repository contains my Data Structures and Algorithms journey using C++.
 |  |
 | ------- |
 | [0058-length-of-last-word](https://github.com/2k25cse2512368-ui/DSA-Cpp/tree/master/0058-length-of-last-word) |
+## Hash Table
+|  |
+| ------- |
+| [0202-happy-number](https://github.com/2k25cse2512368-ui/DSA-Cpp/tree/master/0202-happy-number) |
+## Math
+|  |
+| ------- |
+| [0202-happy-number](https://github.com/2k25cse2512368-ui/DSA-Cpp/tree/master/0202-happy-number) |
+## Two Pointers
+|  |
+| ------- |
+| [0202-happy-number](https://github.com/2k25cse2512368-ui/DSA-Cpp/tree/master/0202-happy-number) |
+## Floyd's Cycle Finding Algorithm
+|  |
+| ------- |
+| [0202-happy-number](https://github.com/2k25cse2512368-ui/DSA-Cpp/tree/master/0202-happy-number) |
 <!---LeetCode Topics End-->
