@@ -25,6 +25,7 @@ This repository contains my Data Structures and Algorithms journey using C++.
 |  |
 | ------- |
 | [0058-length-of-last-word](https://github.com/2k25cse2512368-ui/DSA-Cpp/tree/master/0058-length-of-last-word) |
+| [1047-remove-all-adjacent-duplicates-in-string](https://github.com/2k25cse2512368-ui/DSA-Cpp/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 ## Hash Table
 |  |
 | ------- |
@@ -41,4 +42,8 @@ This repository contains my Data Structures and Algorithms journey using C++.
 |  |
 | ------- |
 | [0202-happy-number](https://github.com/2k25cse2512368-ui/DSA-Cpp/tree/master/0202-happy-number) |
+## Stack
+|  |
+| ------- |
+| [1047-remove-all-adjacent-duplicates-in-string](https://github.com/2k25cse2512368-ui/DSA-Cpp/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 <!---LeetCode Topics End-->
